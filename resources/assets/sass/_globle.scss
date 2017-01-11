@@ -1,0 +1,14 @@
+
+.wrapper {
+  position: fixed;
+  top: $navbar-height + 1;
+  bottom: 0;
+  width: 100%;
+  padding-left: $context-menu-width;
+}
+
+.other {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
